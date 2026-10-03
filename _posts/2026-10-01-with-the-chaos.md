@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: With The Chaos
-image: with-the-chaos.jpg
+image: withthechaos.jpg
 permalink: /with-the-chaos
 ---
 
