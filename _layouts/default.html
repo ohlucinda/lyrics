@@ -40,6 +40,8 @@ href="https://use.typekit.net/qsa5fag.css">
 </head>
 <body>
 
+<a class="back-to-ohlucinda" href="https://ohlucinda.com/">Back to OHLUCINDA</a>
+
 <div class="top">
   <a href="/titles" class="lyrics-link">Lyrics</a>
 </div>
@@ -52,13 +54,10 @@ href="https://use.typekit.net/qsa5fag.css">
   </div>
   <div class="part">
   <em>Je'm is part of</em> OHLUCINDA |
-  <a href="/about/">About</a>
+  <a href="https://ohlucinda.com/about-jem/en/">About Je'm</a>
   </div>
   <div class="links">
 <a href="https://music.apple.com/jp/artist/jem/1864719862?l=en-US" target="_blank">Je'm</a> |
-<a href="https://music.apple.com/jp/artist/aquawits/1873995916?l=en-US" target="_blank">AQUAWITS</a> |
-<a href="https://music.apple.com/jp/artist/ohlucinda/1840163010?l=en-US" target="_blank">OHLUCINDA</a> |
-<a href="https://ohlucinda.com/">HOME</a> |
 <a href="https://unsplash.com/@ohlucinda" target="_blank">Images</a> |
 <a href="https://gem.ohlucinda.com" target="_blank">gem</a>
 </div>
@@ -70,6 +69,19 @@ href="https://use.typekit.net/qsa5fag.css">
 body {
   margin: 0;
   padding: 0;
+}
+
+/* 総合HOMEへの入口 */
+.back-to-ohlucinda {
+  position: fixed;
+  top: 28px;
+  right: 34px;
+  z-index: 210;
+  font: 14px/1.5 sans-serif;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 580px) {
+  .back-to-ohlucinda { top: 18px; right: 20px; font-size: 13px; }
 }
 
 /* 背景 */
