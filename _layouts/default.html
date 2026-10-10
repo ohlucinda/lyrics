@@ -170,6 +170,11 @@ a:hover {
   .top { top: 74px; font-size: 36px; }
 }
 
+/* 3. 【iPad miniなどコンパクトなiPad・縦向き】専用 */
+@media (min-width: 700px) and (max-width: 768px) and (orientation: portrait) {
+  .top { top: clamp(380px, 44vh, 500px); font-size: 50px; }
+}
+
 /* 4. 【普通のiPad / iPad Pro】専用（縦・横） */
 @media (min-width: 769px) and (max-width: 1180px) and (orientation: portrait) {
   .top { top: 500px; font-size: 50px; }
