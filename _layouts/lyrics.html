@@ -122,6 +122,10 @@ a:hover {
   .back {
     right: 24px;
   }
+
+  .back-desktop-prefix {
+    display: none;
+  }
 }
   
 </style>
@@ -153,7 +157,7 @@ a:hover {
 </div>
 
 <div class="back">
-  <a href="{{ '/titles' | relative_url }}">BACK TO TITLES</a> &nbsp; | &nbsp; <a href="{{ '/' | relative_url }}">HOME</a>
+  <a href="{{ '/titles' | relative_url }}"><span class="back-desktop-prefix">BACK TO </span>TITLES</a> &nbsp; | &nbsp; <a href="{{ '/' | relative_url }}">HOME</a>
 </div>
 
 <script>
