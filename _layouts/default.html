@@ -40,6 +40,7 @@ href="https://use.typekit.net/qsa5fag.css">
 </head>
 <body>
 
+<a class="back-to-jem" href="https://jem.ohlucinda.com/">TO Je'm</a>
 <a class="back-to-ohlucinda" href="https://ohlucinda.com/">TO OHLUCINDA</a>
 
 <div class="top">
@@ -69,6 +70,19 @@ href="https://use.typekit.net/qsa5fag.css">
 body {
   margin: 0;
   padding: 0;
+}
+
+/* Je'mサイトへの入口 */
+.back-to-jem {
+  position: fixed;
+  top: 28px;
+  left: 34px;
+  z-index: 210;
+  font: 14px/1.5 'adobe-caslon-pro', serif;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 580px) {
+  .back-to-jem { top: 18px; left: 20px; font-size: 13px; }
 }
 
 /* 総合HOMEへの入口 */
